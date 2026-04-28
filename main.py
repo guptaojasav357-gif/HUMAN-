@@ -7,7 +7,7 @@ st.write("hello! creating a simple web application using streamlit library.")
 #text output
 name=st.text_input("Enter you name:")
 #number input
-age=st.number_input(Enter your age:")
+age=st.number_input("Enter your age:")
 
 #display a message when button is clicked
 if st.button("submit"):
