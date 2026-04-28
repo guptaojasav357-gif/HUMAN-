@@ -11,4 +11,4 @@ age=st.number_input("Enter your age:")
 
 #display a message when button is clicked
 if st.button("submit"):
-  st.write("hello,{name}!welcome to streamlit.")
+  st.write(f"hello,{name}!welcome to streamlit.")
